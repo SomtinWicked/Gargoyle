@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gargoyle"
+        android:id="@+id/imageView"
+        android:layout_weight="0.21"
+        android:contentDescription="Stone gargoyle" />
+
+    <TextView android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="GARGOYLE"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_weight="0.03" />
+
+    <Button android:id="@+id/buttonEnter"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Begin"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09" />
+</LinearLayout>
+
